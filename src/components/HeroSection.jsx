@@ -17,12 +17,12 @@ const HeroSection = () => {
               ESOPs
             </span>
           </h1>
-          <p className="text-[#9F9F9F] text-xl font-normal text-justify w-[45%] text-justify">
+          <p className="text-[#9F9F9F] text-xl font-normal text-justify w-[45%] ">
             Incentiv offers an easy way for employers to issue ESOPs/grants, and
             allow employees to easily accept, track, exercise, and sell their
             granted shares.
           </p>
-          <button className="flex item-start text-center justify-center bg-gradient-to-r from-blue-800 to-cyan-500  w-[45%] rounded-xl py-5  my-16 text-white w-[17rem] text-2xl">
+          <button className="flex item-start text-center justify-center bg-gradient-to-r from-blue-800 to-cyan-500  rounded-xl py-5  my-16 text-white w-[17rem] text-2xl">
             Request a Demo
           </button>
         </div>

@@ -18,7 +18,7 @@ const Dashboard = () => {
   return (
     <>
       {/* Parent Div */}
-      <div className="flex items-center justify-evenly bg-gradient px-30 py-30 pb-16">
+      <div className="flex items-center justify-evenly bg-gradient px-30 py-30 pb-16 flex-wrap">
         {/* Img Div */}
         <div
           onClick={handleClick}
@@ -36,7 +36,7 @@ const Dashboard = () => {
           <h1 className="text-xl text-blue-500 font-bold mb-4 mt-8">
             Intuitive Dashboards
           </h1>
-          <p className="text-gray-400 text-justify">
+          <p className="text-gray-400 text-justify font-semibold">
             Allows employers to easily track employee option pool, vesting
             schedules, options outstanding, exercises etc and take action
             accordingly.
