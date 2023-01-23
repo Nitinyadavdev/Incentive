@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.body{
+  padding: 0 15px;
+}
+
 .offer-gradient {
   background: linear-gradient(100.4deg, #101022 -9.17%, #080810 118.74%);
 }
