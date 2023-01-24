@@ -77,23 +77,23 @@ const Form = () => {
                 />
                 <input
                   placeholder="Organizaion name*"
-                  className="p-3 text-lg rounded-xl bg-[#7E8AB5] border-none text-black py-3 my-2"
+                  className="p-3 text-lg rounded-xl bg-[#7E8AB5] border-none text-black py-3 my-2 placeholder-black"
                   type="text"
                 />
                 <input
                   placeholder="Company email Id*"
-                  className="p-3 text-lg rounded-xl bg-[#7E8AB5] border-none text-black py-3 my-2"
+                  className="p-3 text-lg rounded-xl bg-[#7E8AB5] border-none text-black py-3 my-2 placeholder-black"
                   type="text"
                 />
                 <input
                   placeholder="Phone number*"
-                  className="p-3 text-lg rounded-xl bg-[#7E8AB5] border-none text-black py-3 my-2"
+                  className="p-3 text-lg rounded-xl bg-[#7E8AB5] border-none text-black py-3 my-2 placeholder-black"
                   type="number"
                 />
 
                 <input
                   placeholder="Tell us more about your needs  "
-                  className="p-3 text-lg rounded-xl bg-[#7E8AB5] border-none text-black pb-20"
+                  className="p-3 text-lg rounded-xl bg-[#7E8AB5] border-none text-black pb-20 placeholder-black"
                   type="text"
                 />
                 <button className="flex items-start bg-gradient-to-r from-blue-800 to-cyan-500 p-4 text-base font-medium rounded-xl text-center justify-center mt-7 text-white">
