@@ -11,9 +11,9 @@ const Navbar = () => {
   return (
     // Main Div
     <>
-      <div className="flex items-center justify-between sticky top-0 left-0 right-0  bg-black pt-8 px-28 pb-4">
+      <div className="flex items-center justify-between   bg-black pt-8 px-28 pb-4 sticky top-0 left-0 right-0">
         <div>
-          <h1 className="text-3xl text-[#676767] font-bold cursor-pointer hover:text-[#b8b8b8] transition duration-150 ease-in-out ">
+          <h1 className="text-3xl text-[#676767] font-bold cursor-pointer hover:text-[#b8b8b8] transition duration-150 ease-in-out ml-14 ">
             {" "}
             incentive.
           </h1>

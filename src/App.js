@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Form from "./components/Form";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
-import OfferSection from "./components/OfferSection";
+import Offers from "./components/Offers";
 
 function App() {
   return (
@@ -13,8 +13,9 @@ function App() {
       <Navbar />
       <HeroSection />
       <Banner />
-      <OfferSection />
+      <Offers />
       <Dashboard />
+
       <Form />
       <Footer />
     </div>

@@ -10,12 +10,12 @@ const Form = () => {
   return (
     <>
       {/* Box Div */}
-      <div className=" bg-black  ">
+      <div className=" bg-black ">
         {/* Parent Div */}
 
-        <div className="flex justify-between px-9">
+        <div className="flex justify-between flex-wrap px-9 mx-auto">
           {/* Main div */}
-          <div className=" flex-1 w-32 pl-5 gap-4 py-56">
+          <div className=" flex-1 w-32  gap-4 py-56 min-w-min pl-36">
             <h1 className="text-[#7F9AFD] text-4xl font-bold mb-10">
               Are you ready for better way <br /> to manage your ESOPs?
             </h1>
@@ -72,7 +72,7 @@ const Form = () => {
               <form className="flex flex-col gap-5 justify-start px-3 mx-9 py-5">
                 <input
                   placeholder="Full Name*"
-                  className="p-3 text-lg rounded-xl bg-[#7E8AB5] border-none text-black py-3 my-2 "
+                  className="p-3 text-lg rounded-xl bg-[#7E8AB5] border-none text-black py-3 my-2 placeholder-black"
                   type="text"
                 />
                 <input

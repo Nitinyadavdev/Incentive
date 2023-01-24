@@ -21,12 +21,12 @@ const LitItem = ({ item }) => {
   return <li>{item.desc}</li>;
 };
 
-const OfferSection = () => {
+const Offers = () => {
   return (
     <>
       {/* Parent div */}
       <div className="flex flex-col px-32 py-32 bg-black">
-        <h1 className="text-2xl font-semibold text-gray-300 mb-10">
+        <h1 className="text-2xl font-semibold text-gray-300 mb-10 ml-12">
           What We Offer
         </h1>
         {/* Box Div */}
@@ -56,4 +56,4 @@ const OfferSection = () => {
   );
 };
 
-export default OfferSection;
+export default Offers;

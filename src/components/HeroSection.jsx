@@ -1,7 +1,7 @@
 import React from "react";
-import Frame4 from "../assets/Frame 4.png";
-import Frame5 from "../assets/Frame 5.png";
-import Ellipse1 from "../assets/Ellipse 1.png";
+import ColumnChart from "../assets/Frame 4.png";
+import PieChart from "../assets/Frame 5.png";
+import BackgroundImg from "../assets/Ellipse 1.png";
 
 const HeroSection = () => {
   return (
@@ -29,9 +29,9 @@ const HeroSection = () => {
 
         {/* Div 2 */}
         <div className="flex items-start mr-60 gap-8 ">
-          <img src={Ellipse1} className="absolute " alt="" />
-          <img src={Frame4} alt="" />
-          <img src={Frame5} className="mt-24" alt="" />
+          <img src={BackgroundImg} className="absolute " alt="" />
+          <img src={ColumnChart} alt="" />
+          <img src={PieChart} className="mt-24" alt="" />
         </div>
       </div>
     </>
